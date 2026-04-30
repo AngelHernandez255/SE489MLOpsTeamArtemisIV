@@ -1,1 +1,5 @@
-This is the code space for the team.
+
+This project is an ML-powered movie-recommending software. 
+
+It uses a dataset of movie reviews to recommend movies to a user.
+
