@@ -1,7 +1,6 @@
 
 # Movie Recommender
-## Team ArtemisIV
-## Team Members (Name & Email):
+## Team ArtemisIV Members (Name & Email):
 ### Angel Hernandez (AHERN255@depaul.edu)
 ### Anjan Kumar Basavaraj Gurudatt (ABASAVAR@depaul.edu)
 ### Sakshi Gorkhali (SGORKHAL@depaul.edu)
