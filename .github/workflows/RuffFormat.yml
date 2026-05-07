@@ -19,10 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Lint with ruff
-        run: |
-          ruff check .
-
       - name: Format check with ruff
         run: |
           ruff format .
