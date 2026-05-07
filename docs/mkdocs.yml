@@ -1,0 +1,21 @@
+site_name: Artemis Movie Recomender
+site_description: "A movie recomender that looks at review data and gives recomendations for movies to watch."
+site_author: "TeamAtremisIV by Anjan, Sakshi, Joshua, Angel."
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - API Reference: api.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc

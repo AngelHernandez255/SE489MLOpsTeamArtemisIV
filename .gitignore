@@ -1,110 +1,149 @@
-# Data Science Research & EDA .gitignore
-# accuired from https://gitignore.pro/python-gitignore/data-science.
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-.jupyter/
-.ipython/
-
-# Raw datasets (usually large and should not be in version control)
-data/raw/
-data/external/
-datasets/
-*.csv
-*.tsv
-*.json
-*.parquet
-*.hdf5
-*.h5
-*.pickle
-*.pkl
-*.feather
-
-# Exploratory data analysis outputs
-eda_output/
-exploratory/
-analysis_results/
-plots/
-figures/
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.pdf
-
-# Research notebooks and temporary files
-research_notebooks/
-scratch/
-temp_analysis/
-prototype/
-*.tmp
-*.temp
-
-# Data profiling reports
-profiling_reports/
-data_quality/
-*.html
-report_*.json
-
-# Virtual environment
-venv/
-.venv/
-env/
-ENV/
-conda-env/
-.conda/
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
 
-# Research databases and caches
-cache/
-.cache/
-*.db
-*.sqlite3
-research.db
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Temporary model files
-temp_models/
-scratch_models/
-*.joblib
-*.model
+# PyInstaller
+*.manifest
+*.spec
 
-# IDE and editor files
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# Data directories
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+models/*.pt
+models/*.pkl
+models/*.h5
+!models/.gitkeep
+
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# Environment variables
-.env
-.env.local
-research_config.py
-
-# Logs
-*.log
-research.log
-analysis.log
-
-# Statistical analysis outputs
-stats_output/
-correlation_matrices/
-feature_importance/
-
-# Documentation drafts
-draft_docs/
-research_notes/
-*.md.backup
-
-# Testing and validation
-test_results/
-validation_output/
-cross_validation/
+# Project specific
+config/local_settings.py
