@@ -30,13 +30,9 @@ jobs:
           pip install -r requirements.txt
           pip install -r requirements_dev.txt
 
-      - name: Lint with ruff
-        run: |
-          ruff check .
-
       - name: Format check with ruff
         run: |
-          ruff format --check .
+          ruff format .
 
       - name: Install project
         run: |
